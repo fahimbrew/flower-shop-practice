@@ -1,0 +1,89 @@
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+.banner-section-container {
+    max-width: 1680px;
+    height: 600px;
+    /* border: 2px solid rgb(198, 30, 30); */
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    gap: 30px;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.banner-text-container {
+    width: 50%;
+    /* border: 2px solid rgb(43, 4, 4); */
+    /* height: 600px; */
+    margin: 20px 20px 20px 60px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.banner-text-container>h1 {
+    color: rgb(39, 39, 39);
+    /* font-family: Lato; */
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-text-container>p {
+    color: rgba(39, 39, 39, 0.6);
+    /* font-family: Lato; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-primary {
+    border-radius: 8px;
+
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    /* font-family: Lato; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+
+.banner-image-container {
+    width: 50%;
+    border: 2px solid green;
+    /* height: 600px; */
+    margin: 20px 60px 20px 20px;
+
+}
